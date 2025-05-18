@@ -9,18 +9,11 @@ import Foundation
 import Domain
 import DeviceBridge
 
-public class ___VARIABLE_featureName___SyncManager: ___VARIABLE_featureName___SyncProtocol {
+public class ___VARIABLE_featureName___SyncManager: ___VARIABLE_featureName___WatchTransferProtocol {
     private let bridge: ___VARIABLE_featureName___BridgeProtocol
 
     public init(bridge: ___VARIABLE_featureName___BridgeProtocol) {
         self.bridge = bridge
     }
 
-    public func setToDevice(value: Any) {
-        bridge.set(value: value)
-    }
-
-    public func getFromDevice() -> Any {
-        return bridge.get()
-    }
 }

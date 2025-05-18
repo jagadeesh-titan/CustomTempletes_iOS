@@ -15,18 +15,4 @@ public class ___VARIABLE_featureName___BLEBridge: ___VARIABLE_featureName___Brid
         self.device = device
     }
 
-    public func set(value: Any) {
-        device?.set(value: value) { result in
-            switch result {
-            case .success:
-                print("✅ Successfully set value to device")
-            case .failure(let error):
-                print("❌ Failed to set value to device: \(error)")
-            }
-        }
-    }
-
-    public func get() -> Any {
-        return device?.get() ?? 0
-    }
 }

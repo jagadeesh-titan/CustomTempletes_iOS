@@ -8,6 +8,5 @@
 import Foundation
 
 public protocol ___VARIABLE_featureName___BridgeProtocol: AnyObject {
-    func set(value: Any)
-    func get() -> Any
+    
 }

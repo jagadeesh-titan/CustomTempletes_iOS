@@ -7,23 +7,21 @@
 
 import Foundation
 
-public protocol ___VARIABLE_featureName___SyncUseCaseProtocol {
-    func syncFromCloudToDevice() async throws
-    func syncFromDeviceToCloud() async throws
-}
 
 public protocol ___VARIABLE_featureName___RemoteRepositoryProtocol {
-    func fetchFromCloud() async throws -> Any
-    func saveToCloud(value: Any) async throws
+   
 }
 
 public protocol ___VARIABLE_featureName___LocalRepositoryProtocol {
-    func save(_ value: Any)
-    func fetch() -> Any
+    
 }
 
-public protocol ___VARIABLE_featureName___SyncProtocol {
-    func setToDevice(value: Any)
-    func getFromDevice() -> Any
+// This is to get and save data to database
+public protocol ___VARIABLE_featureName___PersistenceProtocol {
+   
+}
+
+public protocol ___VARIABLE_featureName___WatchTransferProtocol {
+   
 }
 

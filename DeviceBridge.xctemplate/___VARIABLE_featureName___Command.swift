@@ -9,6 +9,5 @@ import Foundation
 
 
 public protocol ___VARIABLE_featureName___Command: AnyObject {
-    func set(value: Any, completion: @escaping (Result<Bool, Error>) -> Void)
-    func get() -> Any
+   
 }

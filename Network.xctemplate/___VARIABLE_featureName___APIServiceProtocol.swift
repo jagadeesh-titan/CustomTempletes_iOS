@@ -8,6 +8,5 @@
 import Foundation
 
 public protocol ___VARIABLE_featureName___APIServiceProtocol {
-    func fetch() async throws -> Any
-    func save(value: Any) async throws
+ 
 }

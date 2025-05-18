@@ -15,11 +15,4 @@ public class Local___VARIABLE_featureName___Repository: ___VARIABLE_featureName_
         self.database = database
     }
 
-    public func save(_ value: Any) {
-        database.save(value: value)
-    }
-
-    public func fetch() -> Any {
-        return database.fetch()
-    }
 }

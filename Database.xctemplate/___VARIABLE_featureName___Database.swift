@@ -17,15 +17,5 @@ public class ___VARIABLE_featureName___Database: ___VARIABLE_featureName___Persi
         self.realmProvider = realmProvider
     }
 
-    public func save(value: Any) {
-        guard let realm = realmProvider.getRealm() else { return }
-
-    }
-
-    public func fetch() -> Any? {
-        guard let realm = realmProvider.getRealm() else { return 0 }
-
-        return nil
-    }
 }
 

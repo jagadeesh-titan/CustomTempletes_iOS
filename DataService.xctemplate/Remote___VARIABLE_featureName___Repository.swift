@@ -16,12 +16,5 @@ public class Remote___VARIABLE_featureName___Repository: ___VARIABLE_featureName
         self.apiService = apiService
     }
 
-    public func fetchFromCloud() async throws -> Any {
-        return try await apiService.fetch()
-    }
-
-    public func saveToCloud(value: Any) async throws {
-        try await apiService.save(value: value)
-    }
 }
 

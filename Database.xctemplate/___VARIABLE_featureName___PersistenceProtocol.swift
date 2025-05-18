@@ -8,6 +8,5 @@
 import Foundation
 
 public protocol ___VARIABLE_featureName___PersistenceProtocol {
-    func save(value: Any)
-    func fetch() -> Any?
+   
 }
